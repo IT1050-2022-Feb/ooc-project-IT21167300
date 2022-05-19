@@ -28,10 +28,10 @@ I.U.N.Nadeeshan (IT21166556) -->
    *Staff_Memeber
    *Accountant
    *User
-   *Inquiry
+   *Delivery_Person
 
 M.G.T Rashmika (IT21167546) -->
-   *Delivery_Person
+   *Inquiry
    *Feedback
    *Notification
    
