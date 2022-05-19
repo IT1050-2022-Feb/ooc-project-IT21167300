@@ -138,7 +138,7 @@ void Report:: display()
 {
 	cout << endl << "Report Infro ->" << endl ;
 	cout << "Report ID   : " << reportID << endl ;
-    cout <<"Report Type : " << reportType << endl ;	
+    cout <<"Report Type : " << reportType << endl << endl ;	
 }
 
 void Report::displayOrdersReports()
@@ -169,7 +169,8 @@ Invoice::Invoice(string No)
 
 void Invoice::display()
 {
-	cout << "Invoice No   : " << invoiceNo << endl ;	
+	cout << "Invoice Infor ->" << endl ;
+	cout << "Invoice No   : " << invoiceNo << endl << endl ;	
 }
 
 
@@ -216,8 +217,7 @@ void Payment::display()
 	cout << "Payment Infro ->" << endl ;
 	cout << "Patment ID   : " << paymentID << endl ;
     cout <<"Payment Type : " << paymentType << endl ;
-	cout << "payment Date : " << PaymentDate << endl << endl ;
-	cout << "Invoice Infor ->" << endl ;
+	cout << "payment Date : " << PaymentDate << endl ;
 	invoice->display();
 }
 
@@ -246,18 +246,26 @@ int main(void)
 	Payment * payObj;
 	payObj = new Payment("P1020" , "Paypal" , "2021/05/20" , "I1020");
 	payObj -> display();  //Display sample details
-	//delete payObj;
+	
 	
 /*-----------------------------Report class--------------------------------*/
   
    Report * repoObj1;
    repoObj1 = new Report("R567" , "InvoiceFile");
-   repoObj1->display();   //Display sample details
-   delete repoObj1 ;
+   repoObj1->display();   //Display sample details 
    
-//Invoice objects allready define inside the payment class   
+   
+/*-----------------------------Invoice class--------------------------------*/ 
 
+  Invoice * invoObj;
+  invoObj = new Invoice("I2033");
+  invoObj->display();
+  
+/*-----------------------------Delete Objects--------------------------------*/ 
 
+  delete payObj;
+  delete repoObj1;
+  delete invoObj; 
+  
 	return 0;
 }
-
