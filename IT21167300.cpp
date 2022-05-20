@@ -1,7 +1,7 @@
 /* 	IT21167300 
 	Sumanasekara PDM
 	Malabe
-	8.2.g1
+	MLB_08.02_3
 
 I have programmed the classes "Order", "Cart", "Laundry_Item" and their relationships.
 "Order" has whole part relationship with "Payment" and "Payment" has a whole part relationship with "Invoice".
@@ -231,7 +231,7 @@ void Cart::addLaundryItem( Laundry_Item *item, int index){
 };
 
 //void addCustomer(Customer * cus){
-//	customer = cus;	
+//	Customer = cus;	
 //};
 
 void Cart::display(){
