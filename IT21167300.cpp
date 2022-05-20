@@ -230,8 +230,8 @@ void Cart::addLaundryItem( Laundry_Item *item, int index){
 	items[index] = item;
 };
 
-//void addCustomer(Customer * cus){
-//	Customer = cus;	
+//void Cart::addCustomer(Customer * cus){
+//	customer = cus;	
 //};
 
 void Cart::display(){
@@ -263,15 +263,15 @@ void Order::addLaundryItem( Laundry_Item *item, int index){
 	items[index] = item;
 };
 
-//void addCustomer(Customer *cus){
+//void Order::addCustomer(Customer *cus){
 //	customer = cus;
 //};
 		
-//void addDelivery_Person(Delivery_Person *d){
+//void Order::addDelivery_Person(Delivery_Person *d){
 //	delivery = d;
 //};
 		
-//void addStaff_Member(Staff_Member *s){
+//void Order::addStaff_Member(Staff_Member *s){
 //	staff = 	
 //};
 		
