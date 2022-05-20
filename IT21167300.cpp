@@ -10,7 +10,7 @@ my fellow group memeber Maduranga DBWN (IT21170270).
 
 However I did not include classes that had association relationship with the classes that I wrote. Becuase of that
 there are some methods and attributes that can't be used in the main program. Thus I have commented out those 
-attributes and methods to make this code work. 
+attributes and methods to make this code work. Those commented out codes are uncommonted in the "Combined Code.cpp" 
 
 */
   
