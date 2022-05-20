@@ -310,4 +310,6 @@ int main() {
 	order -> addLaundryItem(l2,1);
 	order -> display();
 	delete order;
+	delete l1,l2;
+	delete cart;
 }
