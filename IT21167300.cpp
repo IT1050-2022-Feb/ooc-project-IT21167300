@@ -119,7 +119,7 @@ Payment::~Payment()
 /* Code of Maduranga DBWN (IT21170270) ENDS HERE --------------------------------*/
 
 
-/* Code of Sumanasekara PDM (IT21167300) STARTS HERE - Order, Cart, Laundry_Item */
+/* Code of Sumanasekara PDM (IT21167300) STARTS HERE - Order, Cart, Laundry_Item  */
 
 /*-----------------------------Laundry_Item class Definition---------------------*/
 
